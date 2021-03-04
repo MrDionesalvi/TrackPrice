@@ -9,10 +9,18 @@
     },
     "Sito2": {
         "nome": "msi",
-        "link": "https://itstore.msi.com/promozioni-in-corso/productivity-from-spring/cubi-5-10m-033-eu.html",
+        "link": "https://itstore.msi.com/schede-video/radeon/radeon-rx-5700-xt-gaming-x.html",
         "class": {
             "stock": "//*[@id=\"product-addtocart-button\"]/span",
             "price": "/html/body/div[6]/main/div[2]/div[1]/div[3]/div[4]/div[1]/span/span/span"
+        }
+    },
+    "Sito3": {
+        "nome": "Bpm power",
+        "link": "https://www.bpm-power.com/it/online/componenti-pc/schede-video/scheda-amd-msi-radeon-b1558564",
+        "class": {
+            "stock": "/html/body/div[3]/div[7]/div[1]/div[7]/div[2]/div[1]/div[5]/div[1]/span",
+            "price": "//*[@id=\"prodotto\"]/div[1]/div[6]/div[2]/div[5]/p/span[1]"
         }
     }
 }

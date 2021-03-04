@@ -5,13 +5,14 @@ from selenium import webdriver
 from selenium.common.exceptions import ElementNotInteractableException, NoSuchElementException, StaleElementReferenceException
 import json
 
-Path = "O:/Dione-dev/Imparo-Python/TrackPrice/siti.json"
-data = json.load(open(Path))
+pathJson = "O:/Dione-dev/Imparo-Python/TrackPrice/siti.json"
+pathDriver = "O:/Dione-dev/Imparo-Python/TrackPrice/driver/chromedriver.exe"
+data = json.load(open(pathJson))
 
 globalPrice = "1000"
 
 while True:
-    browser = webdriver.Chrome(executable_path='O:/Dione-dev/Things/chromedriver.exe')
+    browser = webdriver.Chrome(executable_path=pathDriver)
     for i in data:
         browser.get(data[i]['link'])
 
@@ -31,6 +32,7 @@ while True:
         except(NoSuchElementException):
             print("\nNon disponibile")
 
+    time.sleep(6)
     browser.quit()
+    print("\nGiro Finito\n")
     time.sleep(20)
-    print("\nGiro Finito \n")

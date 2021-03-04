@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.common.exceptions import ElementNotInteractableException, NoSuchElementException, StaleElementReferenceException
 import json
 
-Path = "O:\Dione-dev\Imparo-Python\TrackPrice\siti.json"
+Path = "O:/Dione-dev/Imparo-Python/TrackPrice/siti.json"
 data = json.load(open(Path))
 
 globalPrice = "1000"

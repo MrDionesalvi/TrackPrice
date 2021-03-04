@@ -1,0 +1,18 @@
+{
+    "Sito1": {
+        "nome": "ePrice",
+        "link": "https://www.eprice.it/schede-video-msi-amd-radeon-rx-5700-xt-gaming-x-oc-8gb-grafikkarte-gddr6-hdmi-3x-dp-v381-032r/d-57353032",
+        "class": {
+            "stock": "//*[@id=\"reactSpike\"]/div/div/div/strong",
+            "price": "//*[@id=\"PrezzoClasic\"]/span/span[2]"
+        }
+    },
+    "Sito2": {
+        "nome": "msi",
+        "link": "https://itstore.msi.com/promozioni-in-corso/productivity-from-spring/cubi-5-10m-033-eu.html",
+        "class": {
+            "stock": "//*[@id=\"product-addtocart-button\"]/span",
+            "price": "/html/body/div[6]/main/div[2]/div[1]/div[3]/div[4]/div[1]/span/span/span"
+        }
+    }
+}
